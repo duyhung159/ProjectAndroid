@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hub_img"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Quản Lý Sinh Viên"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="#BF58FF27"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnThemLop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@null"
+            android:background="@drawable/bg_btn_select"
+            android:text="Thêm Lớp"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/btnXemLop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_btn_select"
+            android:text="Xem danh sách lớp"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/btnQLSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_btn_select"
+            android:text="Quản lý sinh viên"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+  </LinearLayout>
